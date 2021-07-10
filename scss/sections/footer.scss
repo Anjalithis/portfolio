@@ -1,0 +1,50 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+.contact{
+    @include gradient;
+    color:white;
+    
+}
+
+.content{
+    position:relative;
+    align-items: center;
+    padding-top: 25px ;
+    
+    @include media-breakpoint-down(md){
+        padding-top: 25px;
+    }
+   
+}
+.col-sm-3{
+    max-width: 30%;
+}
+
+.icon{
+    width: 3rem;
+    stroke:$primary;
+    fill:white;
+
+    
+    @include media-breakpoint-down(md){
+        width:2rem;
+     }
+     }
+     
+     a:hover{
+        .icon{
+           
+            fill : $secondary;
+        }
+    }
+
+.small-txt{
+    color: $primary;
+    font-weight: 700;
+    font-size: large;
+    color:white;
+    @include media-breakpoint-down(md){
+        font-size: small;
+        font-weight: 500;
+     }
+}

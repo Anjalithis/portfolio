@@ -1,0 +1,14 @@
+@use '../custom' as *;
+@use './mixins' as *;
+
+.btn-good{
+    position:relative;
+    padding:0.500rem 1.25rem 0.500rem 1.25rem;
+    color:$primary;
+    font-weight: 500;
+    border : 0.1rem solid rgba($primary,0.6);
+    background-color:$white ;
+}
+.btn-good:hover{
+    color: #8e1ba5;
+}

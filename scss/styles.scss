@@ -1,0 +1,13 @@
+@use 'custom';
+
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+@use 'components/animations.scss';
+
+
+@use 'sections/footer.scss';
+@use 'sections/intro.scss';
+@use 'sections/navbar.scss';
+@use 'sections/projects.scss';
+@use 'sections/skills.scss';

@@ -1,0 +1,27 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+.skills{
+    padding: 0 0 3rem 0;
+    
+    &__logo-box{
+        @include media-breakpoint-down(lg){
+            padding:10px;
+             text-align: center;
+            }
+            padding: 15px auto;
+            text-align: center;
+       
+        
+        
+        img{
+            @include media-breakpoint-down(lg){
+                height:70px;
+                width: 70px ;
+                border-radius: 50%;
+            }
+            height:90px;
+            width: 90px ;
+            border-radius: 50%;
+            }
+    }
+}
